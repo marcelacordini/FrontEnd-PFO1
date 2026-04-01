@@ -3,7 +3,7 @@
 **Institución:** IFTS N.°29 - Ciclo Lectivo 2026
 
 ## Descripción del Proyecto
-Este proyecto consiste en el desarrollo de una Landing Page de Portafolio Personal utilizando HTML5 y CSS3 puros. El objetivo es presentar mi perfil profesional como Analista de Datos en la administración pública y estudiante de Desarrollo de Software, integrando proyectos que realicé como una tienda onine  en JavaScript y dashboards de Business Intelligence en Looker.
+Este proyecto consiste en el desarrollo de una Landing Page de Portafolio Personal utilizando HTML y CSS. El objetivo es presentar mi perfil profesional como Analista de Datos en la administración pública y estudiante de Desarrollo de Software, integrando proyectos que realicé como una tienda online en JavaScript y dashboards de Business Intelligence en Looker.
 
 ---
 
@@ -15,7 +15,8 @@ Este proyecto consiste en el desarrollo de una Landing Page de Portafolio Person
 - [x] Carpeta img para los recursos gráficos (perfil, proyectos y películas).
 - [x] Repositorio en GitHub creado y actualizado con el código final.
 - [x] Proyecto publicado y accesible mediante GitHub Pages.
-- [x] **URL de GitHub Pages:** [PEGA AQUÍ TU LINK DE GITHUB PAGES]
+- [x] **URL de GitHub Pages:** https://marcelacordini.github.io/FrontEnd-PFO1/
+- [x] **URL de Vercel:** https://front-end-pfo-1-inky.vercel.app/
 
 ### 2. Diseño y Estilos (CSS)
 - [x] Uso de Google Fonts para la tipografía del sitio (Playfair Display y DM Sans).
@@ -36,10 +37,10 @@ Este proyecto consiste en el desarrollo de una Landing Page de Portafolio Person
 ## Reflexiones y Decisiones de Diseño
 
 **¿Por qué elegiste esa fuente?**
-Elegí **Playfair Display** para los títulos debido a su estilo sofisticado, me parece que le da un toque distintivo y **DM Sans** para el cuerpo de texto por ser una fuente moderna y clara, ideal para la lectura de contenido.
+Elegí **Playfair Display** para los títulos debido a su estilo sofisticado, me parece que le da un sello distintivo y **DM Sans** para el cuerpo de texto por ser una fuente moderna y clara, ideal para la lectura de contenido.
 
 **¿Qué ventajas encontraste al utilizar Flexbox en tu proyecto?**
 La principal ventaja de Flexbox fue la facilidad para alinear elementos de forma proporcional. Me permitió que las tarjetas de mis proyectos se acomoden solas dependiendo del tamaño de la pantalla, asegurando que el portafolio se vea bien tanto en una computadora como en un celular.
 
 **¿Qué animación o transición implementaste y por qué?**
-Implementé efectos de elevación y sombras dinámicas en las tarjetas de proyectos. También sumé marcos decorativos en las fotos de las películas que reaccionan al pasar el mouse. Estas animaciones invitan al usuario a chequear qué hay detrás de cada imagen.
+Implementé efectos de elevación y sombras dinámicas en las tarjetas de proyectos. También sumé marcos decorativos en las fotos de las películas que reaccionan al pasar el mouse. 
