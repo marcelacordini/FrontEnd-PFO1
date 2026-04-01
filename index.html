@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional - Marcela Cordini</title>
+    
+    <!-- Google Fonts: Playfair Display + DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- HEADER: Título principal y presentación visual -->
+    <header>
+        <div class="header-inner">
+            <div class="header-eyebrow"> · CABA · </div>
+            <h1>Marcela<br><em>Cordini</em></h1>
+            <p class="header-sub">Analista de Datos &amp; Futura Desarrolladora de Software</p>
+            <div class="header-tags">
+                <span>Python</span>
+                <span>SQL</span>
+                <span>JavaScript</span>
+                <span>Data Analysis</span>
+                <span>Business Intelligence</span>
+            </div>
+        </div>
+        <div class="header-deco"></div>
+    </header>
+
+    <!-- NAVEGACIÓN sticky con glassmorphism -->
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#peliculas">Películas</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <!-- SOBRE MÍ: Presentación personal con imagen -->
+        <section id="sobre-mi">
+            <div class="seccion-label">01 — Sobre mí</div>
+            <h2 class="titulo-seccion">Datos, algo de código<br><em>y gestión pública</em></h2>
+            <div class="sobre-mi-contenido">
+                <div class="sobre-mi-texto">
+                    <p>
+                        Con más de <strong>25 años en Telecomunicaciones</strong> y 20 años trabajando en la 
+                        <strong>Administración Pública Nacional</strong> (ENACOM), combino experiencia 
+                        en gestión estatal con análisis de datos y formación tecnológica.
+                    </p>
+                    <p>
+                        Actualmente en el último año de la <strong>Tecnicatura en Desarrollo de Software</strong> 
+                        (GCBA – IFTS 29) y cursando <strong>
+                        Data Analytics con Python</strong> en Talento Tech. 
+		    </p>
+                    <div class="sobre-mi-datos">
+                        <div class="dato">
+                            <span class="dato-num">25+</span>
+                            <span class="dato-label">años de experiencia</span>
+                        </div>
+                        <div class="dato">
+                            <span class="dato-num">5+</span>
+                            <span class="dato-label">lenguajes de programación</span>
+                        </div>
+                        <div class="dato">
+                            <span class="dato-num">ENACOM</span>
+                            <span class="dato-label">desde 2006</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-mi-imagen">
+                    <img src="img/perfil.jpeg" alt="Foto de perfil de Marcela Cordini" class="foto-perfil">
+                    <div class="imagen-deco"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTOS: Tarjetas con Flexbox -->
+        <section id="tarjetas">
+            <div class="seccion-label">02 — Proyectos</div>
+            <h2 class="titulo-seccion">Trabajo destacado</h2>
+            <div class="contenedor-tarjetas">
+
+                <!-- Tarjeta 1: Cafecito JS -->
+                <article class="tarjeta">
+                    <div class="tarjeta-imagen">
+                        <img src="img/cafecito.jpg" alt="Captura del Proyecto Tienda de Café">
+                        <div class="tarjeta-overlay">
+                            <a href="https://marcelacordini.github.io/marcelacordini-Coder-EntregaFinal/" target="_blank" class="overlay-btn">Ver online ↗</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta-contenido">
+                        <span class="tag">JavaScript · POO</span>
+                        <h3>Tienda de Café</h3>
+                        <p>Sistema interactivo de ventas en JavaScript. Proyecto final de Coderhouse.</p>
+                        <a href="https://marcelacordini.github.io/marcelacordini-Coder-EntregaFinal/" target="_blank" class="boton-link">Ver Proyecto Online →</a>
+                    </div>
+                </article>
+
+                <!-- Tarjeta 2: Análisis de datos -->
+                <article class="tarjeta">
+                    <div class="tarjeta-imagen">
+                        <img src="img/looker.png" alt="Captura del Proyecto Ventas">
+                        <div class="tarjeta-overlay">
+                            <a href="https://lookerstudio.google.com/u/0/reporting/e8f846e6-9634-46b7-8796-cd1923614c75/page/p_mbforbdryd" target="_blank" class="overlay-btn">Ver online ↗</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta-contenido">
+                        <span class="tag">Data Analysis</span>
+                        <h3>Dashboard Looker</h3>
+                        <p>Sistema interactivo en Looker. Proyecto final de Business Intelligence.</p>
+                        <a href="https://lookerstudio.google.com/u/0/reporting/e8f846e6-9634-46b7-8796-cd1923614c75/page/p_mbforbdryd" target="_blank" class="boton-link">Ver Reporte →</a>
+                    </div>
+                </article>
+               
+            </div>
+        </section>
+
+        <!-- HABILIDADES: Tabla estilizada con stack tecnológico -->
+        <section id="habilidades">
+            <div class="seccion-label">03 — Stack</div>
+            <h2 class="titulo-seccion">Habilidades<br><em>tecnológicas</em></h2>
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Área</th>
+                            <th>Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="tech-icon">🐍</span> Python</td>
+                            <td>Data Science · Pandas · NumPy · ML</td>
+                            <td><span class="nivel nivel--alto">Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tech-icon">🗄️</span> SQL</td>
+                            <td>Bases de Datos · Consultas</td>
+                            <td><span class="nivel nivel--alto">Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tech-icon">⚡</span> JavaScript</td>
+                            <td>Frontend · POO · Coderhouse</td>
+                            <td><span class="nivel nivel--medio">Básico-Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tech-icon">⚛️</span> React JS</td>
+                            <td>Interfaces · Coderhouse</td>
+                            <td><span class="nivel nivel--medio">Básico-Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tech-icon">#</span> C#</td>
+                            <td>POO · IFTS 29</td>
+                            <td><span class="nivel nivel--inicio">Básico-Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tech-icon">📊</span> Looker Studio</td>
+                            <td>Business Intelligence · Dashboards</td>
+                            <td><span class="nivel nivel--medio">Intermedio</span></td>
+                        </tr>
+                        <tr>
+                            <td><span class="tech-icon">🌐</span> HTML5 / CSS3</td>
+                            <td>Desarrollo Frontend</td>
+                            <td><span class="nivel nivel--inicio">En aprendizaje</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- PELÍCULAS FAVORITAS: Tres referencias cinematográficas -->
+        
+	<section id="peliculas">
+    <div class="seccion-label">04 — Cine</div>
+    <h2 class="titulo-seccion">Mis tres<br><em>películas favoritas</em></h2>
+    <div class="contenedor-peliculas">
+
+        <article class="pelicula-item">
+            <div class="pelicula-numero">01</div>
+            <div class="pelicula-info">
+                <h3>La La Land</h3>
+                <span class="pelicula-year">2016 · Damien Chazelle</span>
+                <img src="img/la la land.jpg" alt="Póster de la película La La Land" class="img-pelicula">
+                <p>Me encanta cómo utiliza la música y los colores para narrar la dualidad entre el éxito profesional y las decisiones personales, recordándonos que cada elección moldea nuestro camino.</p>
+            </div>
+        </article>
+
+        <article class="pelicula-item">
+            <div class="pelicula-numero">02</div>
+            <div class="pelicula-info">
+                <h3>Notting Hill</h3>
+                <span class="pelicula-year">1999 · Roger Michell</span>
+                <img src="img/notting hill.jpg" alt="Póster de la película Notting Hill" class="img-pelicula">
+                <p>Una peli de amor clásica que puedo ver mil veces sin aburrirme.</p>
+            </div>
+        </article>
+
+        <article class="pelicula-item">
+            <div class="pelicula-numero">03</div>
+            <div class="pelicula-info">
+                <h3>Crash</h3>
+                <span class="pelicula-year">2004 · Paul Haggis</span>
+                <img src="img/crash.jpg" alt="Póster de la película Crash" class="img-pelicula">
+                <p>Una mirada cruda y necesaria a las tensiones raciales y sociales. Me impresiona cómo las historias de desconocidos se entrelazan para mostrar que todos estamos conectados y que nuestras acciones tienen un impacto profundo en los demás.</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+	
+
+        <!-- CONTACTO: Formulario con nombre, apellido, email y teléfono -->
+        <section id="contacto">
+            <div class="seccion-label">05 — Contacto</div>
+            <h2 class="titulo-seccion">Hablemos</h2>
+            <div class="contacto-contenido">
+                <div class="contacto-info">
+                    <p>¿Tenés un proyecto en mente o querés conectar? Mandame un mensaje o encontrame en:</p>
+                    <div class="contacto-links">
+                        <a href="https://github.com/marcelacordini" target="_blank" class="contacto-link">
+                            <span class="contacto-link-icon">⌥</span> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/marcela-cordini" target="_blank" class="contacto-link">
+                            <span class="contacto-link-icon">in</span> LinkedIn
+                        </a>
+                        <a href="mailto:marcela.cordini@gmail.com" class="contacto-link">
+                            <span class="contacto-link-icon">@</span> Email
+                        </a>
+                    </div>
+                </div>
+                <form action="#" class="formulario-contacto">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido</label>
+                            <input type="text" id="apellido" name="apellido" required placeholder="Tu apellido">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Teléfono</label>
+                        <input type="tel" id="tel" name="tel" placeholder="+54 11 ...">
+                    </div>
+                    <button type="submit" class="boton-submit">Enviar mensaje →</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER: Información adicional y redes sociales -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-nombre">Marcela Cordini</span>
+                <span class="footer-desc">Analista de Datos · Desarrolladora · ENACOM</span>
+            </div>
+            <div class="footer-right">
+                <a href="https://github.com/marcelacordini" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/marcela-cordini" target="_blank">LinkedIn</a>
+                <a href="mailto:marcela.cordini@gmail.com">Email</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 · Marcela Cordini · IFTS N.°29 · Buenos Aires Aprende</p>
+        </div>
+    </footer>
+
+</body>
+</html>
